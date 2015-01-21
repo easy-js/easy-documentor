@@ -1,0 +1,176 @@
+{
+    "classes": [
+        {
+            "name": "ModuleClass",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "ModuleClass",
+                "description": "Class used to test jsdoc templating. This class will start very minimal\nand grow as various documenting use cases become apparent.",
+                "parameters": [
+                    {
+                        "name": "opts",
+                        "type": "object",
+                        "description": "ModuleClass options.",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "opts.prop1",
+                        "type": "string",
+                        "description": "A very import property.",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "opts.prop2",
+                        "type": "string",
+                        "description": "A less important property.",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    }
+                ],
+                "examples": [
+                    "var module = new ModuleClass({\n  prop1: 'super duper important'\n  prop2: 'ehhh'\n});"
+                ]
+            },
+            "functions": [
+                {
+                    "name": "method",
+                    "access": "",
+                    "virtual": false,
+                    "description": "A method that accepts some arguments and returns something.",
+                    "parameters": [
+                        {
+                            "name": "str",
+                            "type": "striing",
+                            "description": "A primitive string.",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "arr",
+                            "type": "Array",
+                            "description": "An array of some numbers.",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "obj",
+                            "type": "Object",
+                            "description": "Props and values yo.",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "callback",
+                            "type": "function",
+                            "description": "Callback after you have done something sweet.",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [
+                        "module.method('string', [0, 1], {\n  prop: 'value'\n}, function () {});"
+                    ],
+                    "returns": {
+                        "type": "string",
+                        "description": "A modified string."
+                    }
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "name": "moduleFunction",
+            "access": "",
+            "virtual": false,
+            "description": "Class used to test jsdoc templating. This class will start very minimal\nand grow as various documenting use cases become apparent.",
+            "parameters": [
+                {
+                    "name": "opts",
+                    "type": "object",
+                    "description": "moduleFunction options.",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "opts.prop1",
+                    "type": "string",
+                    "description": "A very import property.",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "opts.prop2",
+                    "type": "string",
+                    "description": "A less important property.",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [
+                "moduleFunction({\n  prop1: 'super duper important'\n  prop2: 'ehhh'\n});"
+            ]
+        }
+    ],
+    "namespaces": [
+        {
+            "name": "moduleObject",
+            "description": "Class used to test jsdoc templating. This class will start very minimal\nand grow as various documenting use cases become apparent.",
+            "access": "",
+            "virtual": false,
+            "functions": [
+                {
+                    "name": "method",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Class used to test jsdoc templating. This class will start very minimal\nand grow as various documenting use cases become apparent.",
+                    "parameters": [
+                        {
+                            "name": "opts",
+                            "type": "object",
+                            "description": "moduleFunction options.",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "opts.prop1",
+                            "type": "string",
+                            "description": "A very import property.",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "opts.prop2",
+                            "type": "string",
+                            "description": "A less important property.",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [
+                        "moduleObject.method({\n  prop1: 'super duper important'\n  prop2: 'ehhh'\n});"
+                    ]
+                }
+            ]
+        }
+    ]
+}
