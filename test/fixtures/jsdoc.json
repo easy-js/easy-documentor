@@ -4,7 +4,7 @@
             "name": "ModuleClass",
             "description": "",
             "extends": [],
-            "access": "",
+            "access": "public",
             "virtual": false,
             "fires": "",
             "constructor": {
@@ -43,7 +43,7 @@
             "functions": [
                 {
                     "name": "method",
-                    "access": "",
+                    "access": "public",
                     "virtual": false,
                     "description": "A method that accepts some arguments and returns something.",
                     "parameters": [
@@ -94,7 +94,7 @@
     "functions": [
         {
             "name": "moduleFunction",
-            "access": "",
+            "access": "public",
             "virtual": false,
             "description": "Class used to test jsdoc templating. This class will start very minimal\nand grow as various documenting use cases become apparent.",
             "parameters": [
@@ -132,12 +132,12 @@
         {
             "name": "moduleObject",
             "description": "Class used to test jsdoc templating. This class will start very minimal\nand grow as various documenting use cases become apparent.",
-            "access": "",
+            "access": "public",
             "virtual": false,
             "functions": [
                 {
                     "name": "method",
-                    "access": "",
+                    "access": "public",
                     "virtual": false,
                     "description": "Class used to test jsdoc templating. This class will start very minimal\nand grow as various documenting use cases become apparent.",
                     "parameters": [
