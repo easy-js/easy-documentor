@@ -2,7 +2,7 @@
   "name": "easy-documentor",
   "description": "Documentation templater for jsdoc.",
   "author": "Jarid Margolin <jarid@firstopinion.co>",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/easy-js/easy-documentor",
   "repository": {
     "type": "git",
