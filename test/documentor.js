@@ -9,7 +9,8 @@
  * ---------------------------------------------------------------------------*/
 
 // core
-var fs = require('fs');
+var fs   = require('fs');
+var path = require('path');
 
 // 3rd party
 var _      = require('easy-utils');
@@ -24,8 +25,8 @@ var docData    = require('./fixtures/jsdoc');
  * common
  * ---------------------------------------------------------------------------*/
 
-var srcPath  = './test/fixtures/src';
-var tmplPath = './test/fixtures/tmpl.hbs';
+var srcPath  = path.resolve(__dirname, './fixtures/src');
+var tmplPath = path.resolve(__dirname, './fixtures/tmpl.hbs');
 
 var docStr  = fs.readFileSync('./test/fixtures/expected.html', 'utf8');
 
@@ -39,7 +40,7 @@ describe('documentor.js', function () {
   beforeEach(function () {
     this.documentor = new Documentor({
       src: srcPath,
-      tmpl: tmplPath
+      theme: { docsTmpl: tmplPath }
     });
   });
 
